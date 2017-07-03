@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.ad"
+    android:versionCode="1"
+    android:versionName="1.0" android:installLocation="preferExternal">
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.app.ad.application.AdApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+        >
+        <activity
+            android:name=".activity.SplashActivity2"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AdActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <receiver
+            android:name="com.app.ad.application.TvStartReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:priority="2147483647" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
+

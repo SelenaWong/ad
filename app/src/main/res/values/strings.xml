@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">广告机</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">系统参数配置</string>
+    <string name="video_hint">小助手提醒您:请点击左上角导航栏，设置要播放的视频</string>
+    <string name="goback">返回</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="popwin_loadfile_title">导入视频</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+     <string-array name="drawer_array">
+        <item>ip地址</item>
+        <item>广告视频</item>
+        <item>中奖视频</item>
+    </string-array>
+    <string name="ip_address">服务器IP地址</string>
+    <string name="port_address">服务器端口号</string>
+    <string name="ad_path">广告视频路径</string>
+    <string name="price_path">中奖视频路径</string>
+    <string name="edit">编辑</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+   
+    
+    <string name="evp_submit">SUBMIT</string>
+    <string name="evp_retry">RETRY</string>
+    <string name="error">Error</string>
+    
+    
+</resources>

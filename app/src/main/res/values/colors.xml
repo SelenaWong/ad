@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="orange">#ffe3432c</color>
+    <color name="lightorange">#ffddaa</color>
+    <color name="sandybrown">#F4A460</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="blue">#00BBFF</color>
+    <color name="lighter_gray">#ffcccccc</color>
+    <color name="light_gray">#ffbbbbbb</color>
+    <color name="med_gray">#ff999999</color>
+    <color name="gray">#ff666666</color>
+    <color name="dark_gray">#ff4d4d4d</color>
+    <color name="dim_gray">#696969</color>
+    <color name="device_divider">#f1f1f1</color>
+    <color name="btn_focused_green">#1CA744</color>
+    <color name="btn_unfocused_gray">#E8E8E8</color>
+    <color name="text_gray">#606060</color>
+    <color name="light_green">#009944</color>
+    <color name="light_red">#F73C5B</color>
+    <color name="dialog_header_bg">#e8e8e8</color>
+    <color name="progressbar_medium_white">#E4E4E4</color>
+    <color name="progressbar_luminance_light">#D2D2D2</color>
+    <color name="progressbar_luminance_dark">#060303</color>
+    <color name="progressbar_chroma_light">#FFF2F2</color>
+    <color name="progressbar_chroma_dark">#FF7B18</color>
+    <color name="music_btn_white">#F3F3F3</color>
+	<color name="music_btn_green">#46DB77</color>
+	<color name="music_btn_outgreen">#1CB24D</color>
+	<color name="dialog_text">#4c4c4c</color>
+	<color name="configurate_tab_text">#4c4c4c</color>
+	<color name="list_selector">#00000000</color>
+	<color name="btn_dark_textcolor">#9a9a9a</color>
+	<color name="app_statusbar_bgcolor">#2672C5</color>
+	<color name="app_tab_bgcolor">#65A1E4</color>
+	<color name="app_bgcolor">#ECEBEB</color>
+	
+	
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="accent">#FDD835</color>
+	
+</resources>

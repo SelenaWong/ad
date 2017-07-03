@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+    <attr name="src" format="reference"></attr>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+        <attr name="src" />
+    </declare-styleable>
+ <!--   <declare-styleable name="ToolBar">
+        <attr name="buttonNum" format="integer" />
+        <attr name="itemBackground" format="reference|color" />
+    </declare-styleable>-->
+
+    <attr name="border_thickness" format="dimension" />
+    
+    <attr name="border_outside_color" format="reference|color" />
+    
+    <attr name="border_inside_color" format="reference|color" />
+    
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" />
+        <attr name="border_outside_color" />
+        <attr name="border_inside_color" />
+    </declare-styleable>
+    
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="mutate_background" format="boolean" />
+        <attr name="oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+    
+    <declare-styleable name="gridPasswordView">
+
+        <attr name="textColor" format="color|reference" />
+        <attr name="textSize" format="dimension" />
+
+        <attr name="lineColor" format="color" />
+        <attr name="gridColor" format="color" />
+        <attr name="lineWidth" format="dimension" />
+
+        <attr name="passwordLength" format="integer" />
+        <attr name="passwordTransformation" format="string" />
+
+        <attr name="passwordType" format="enum">
+            <enum name="numberPassword" value="0" />
+            <enum name="textPassword" value="1" />
+            <enum name="textVisiblePassword" value="2" />
+            <enum name="textWebPassword" value="3" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="ProgressWheel">
+        <attr name="pwText" format="string" />
+        <attr name="pwTextColor" format="color" />
+        <attr name="pwTextSize" format="dimension" />
+        <attr name="pwBarColor" format="color" />
+        <attr name="pwRimColor" format="color" />
+        <attr name="pwRimWidth" format="dimension" />
+        <attr name="pwSpinSpeed" format="dimension" />
+        <attr name="pwDelayMillis" format="integer" />
+        <attr name="pwCircleColor" format="color" />
+        <attr name="pwRadius" format="dimension" />
+        <attr name="pwBarWidth" format="dimension" />
+        <attr name="pwBarLength" format="dimension" />
+        <attr name="pwContourColor" format="color"/>
+        <attr name="pwContourSize" format="dimension"/>
+    </declare-styleable>  
+    
+    
+    <declare-styleable name="EasyVideoPlayer">
+
+        <attr name="evp_source" format="string" />
+
+        <attr name="evp_leftAction" format="enum">
+            <enum name="none" value="0" />
+            <enum name="restart" value="1" />
+            <enum name="retry" value="2" />
+        </attr>
+
+        <attr name="evp_rightAction" format="enum">
+            <enum name="none" value="3" />
+            <enum name="submit" value="4" />
+            <enum name="customLabel" value="5" />
+        </attr>
+
+        <attr name="evp_customLabelText" format="string" />
+        <attr name="evp_retryText" format="string" />
+        <attr name="evp_submitText" format="string" />
+        <attr name="evp_bottomText" format="string" />
+
+        <attr name="evp_restartDrawable" format="reference" />
+        <attr name="evp_playDrawable" format="reference" />
+        <attr name="evp_pauseDrawable" format="reference" />
+
+        <attr name="evp_hideControlsOnPlay" format="boolean" />
+        <attr name="evp_autoPlay" format="boolean" />
+
+        <attr name="evp_disableControls" format="boolean" />
+
+        <attr name="evp_themeColor" format="color" />
+
+        <attr name="evp_autoFullscreen" format="boolean" />
+
+        <attr name="evp_loop" format="boolean" />
+
+    </declare-styleable>
+    
+    
+</resources>
